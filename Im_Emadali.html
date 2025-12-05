@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Im_Emadali — Vocal Coach & Music Trainer</title>
+  <meta name="description" content="Im_Emadali - Professional vocal coach, music trainer, and performance mentor. Private lessons, group workshops, online coaching." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #0b1020;
+      --card: rgba(255,255,255,0.03);
+      --muted: #b8c2d1;
+      --accent: #ff6b6b;
+      --accent2: #f59e0b;
+      --glass: rgba(255,255,255,0.03);
+      --radius:14px;
+      color-scheme: dark;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto; background: radial-gradient(1200px 600px at 10% 10%, rgba(255,107,107,0.06), transparent), linear-gradient(180deg,#071025 0%, #050814 100%); color:#eaf0f8; -webkit-font-smoothing:antialiased}
+    .wrap{max-width:1100px;margin:24px auto;padding:26px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+    .logo{width:60px;height:60px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#d946ef);display:grid;place-items:center;font-weight:800;font-family:'Playfair Display', serif}
+    .brand h1{font-size:18px;margin:0}
+    nav ul{display:flex;gap:12px;list-style:none;margin:0;padding:0}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600}
+    .book{background:linear-gradient(90deg,var(--accent),#ff8a65);padding:8px 12px;border-radius:10px;font-weight:700;color:#07101b}
+
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:24px;margin-top:18px;align-items:center}
+    .hero-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:26px;border-radius:var(--radius);box-shadow:0 10px 30px rgba(3,7,18,0.6)}
+    .tag{color:var(--accent2);font-weight:700}
+    .title{font-family:'Playfair Display', serif;font-size:30px;margin:8px 0}
+    .lead{color:var(--muted);margin-bottom:14px}
+    .actions{display:flex;gap:10px}
+    .btn{padding:10px 14px;border-radius:10px;border:none;cursor:pointer;font-weight:700}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),#ff8a65);color:#07101b}
+    .btn-outline{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+
+    .profile{display:flex;flex-direction:column;gap:12px}
+    .avatar{width:100%;height:220px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));display:grid;place-items:center;font-size:20px}
+    .info{display:flex;gap:10px;align-items:center}
+    .small{font-size:13px;color:var(--muted)}
+
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+    .card{background:var(--card);padding:14px;border-radius:12px}
+    .card h4{margin:8px 0}
+
+    .about{margin-top:22px}
+    .testimonials{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:14px}
+
+    .audio-demo{margin-top:12px;padding:12px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent)}
+
+    footer{margin-top:26px;padding:16px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);display:flex;justify-content:space-between;align-items:center}
+
+    @media (max-width:980px){.hero{grid-template-columns:1fr}.services{grid-template-columns:repeat(2,1fr)}.testimonials{grid-template-columns:1fr}}
+    @media (max-width:640px){.services{grid-template-columns:1fr}nav ul{display:none}}
+
+    /* small helpers */
+    .muted{color:var(--muted)}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-weight:700}
+    input,textarea,select{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px;border-radius:10px;color:inherit}
+    form .row{display:flex;gap:10px}
+    form .row > *{flex:1}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="#">
+        <div class="logo">IE</div>
+        <div>
+          <h1>Im_Emadali</h1>
+          <div class="small">Vocal Coach • Music Trainer • Performance Mentor</div>
+        </div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#services">Lessons</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="book" href="#contact">Book a Trial</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-card">
+          <div class="tag">SING • PERFORM • SHINE</div>
+          <h2 class="title">Im_Emadali — Professional Vocal Coach</h2>
+          <p class="lead">Private & group lessons, stage coaching, breathing & technique training. Over 8 years teaching experience with performers, choirs and studio artists.</p>
+
+          <div class="info">
+            <div>
+              <div class="small">Location</div>
+              <div style="font-weight:700">Kyrgyzstan • Online</div>
+            </div>
+            <div style="margin-left:auto;text-align:right">
+              <div class="small">Phone</div>
+              <div style="font-weight:700">+996-709904944</div>
+            </div>
+          </div>
+
+          <div style="margin-top:14px;display:flex;gap:10px">
+            <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Trial</button>
+            <button class="btn btn-outline" onclick="document.getElementById('demo').scrollIntoView({behavior:'smooth'})">Listen Demo</button>
+          </div>
+
+          <div style="margin-top:16px;display:flex;gap:8px;align-items:center">
+            <div class="badge">Beginner → Advanced</div>
+            <div class="badge">Online Lessons</div>
+            <div class="badge">Performance Prep</div>
+          </div>
+
+        </div>
+
+        <aside class="profile">
+          <div class="avatar">Im_Emadali<br><span class="small">Vocalist & Coach</span></div>
+          <div class="card">
+            <h4>Quick Facts</h4>
+            <p class="muted">Masters in Music, certified vocal pedagogy, performed across Pakistan & online coaching for international students.</p>
+            <div style="display:flex;gap:8px;margin-top:10px">
+              <div class="small">Lessons: 45 min / 60 min</div>
+              <div style="margin-left:auto"><span class="small">Rates from</span> <strong>PKR 2,000</strong></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h4>Schedule</h4>
+            <div class="small">Mon - Fri: 4pm - 9pm</div>
+            <div class="small">Sat: 10am - 4pm</div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="services" class="about">
+        <h3>Lessons & Programs</h3>
+        <p class="muted">Tailored programs for singers, bands and hobbyists.</p>
+        <div class="services">
+          <div class="card">
+            <h4>Vocal Technique</h4>
+            <p class="muted">Breath control, resonance, pitch accuracy and healthy singing habits.</p>
+          </div>
+          <div class="card">
+            <h4>Performance Coaching</h4>
+            <p class="muted">Stage presence, mic technique and live-show preparation.</p>
+          </div>
+          <div class="card">
+            <h4>Song Interpretation</h4>
+            <p class="muted">Emotion, phrasing and storytelling through song.</p>
+          </div>
+          <div class="card">
+            <h4>Recording Prep</h4>
+            <p class="muted">Studio-ready vocal production, doubling & harmonies.</p>
+          </div>
+          <div class="card">
+            <h4>Group Workshops</h4>
+            <p class="muted">Choir training, harmony workshops and team-building sessions.</p>
+          </div>
+          <div class="card">
+            <h4>Online Coaching</h4>
+            <p class="muted">Structured online lessons with follow-up assignments and recordings.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="demo" class="audio-demo">
+        <h3>Audio Demo</h3>
+        <p class="muted">A short sample of Im_Emadali's teaching session and live performance.</p>
+        <!-- Replace src with actual audio file -->
+        <audio controls preload="none">
+          <source src="https://www.instagram.com/reel/DOOMTFTjJnt/?igsh=YmFmN2hvbWhzaHlp" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <div style="margin-top:12px">
+          <a href="https://www.instagram.com/reel/DOOMTFTjJnt/?igsh=YmFmN2hvbWhzaHlp" target="_blank" style="display:block;padding:20px;background:#111;border-radius:12px;text-align:center;color:#fff;font-size:20px;font-weight:600;text-decoration:none;">▶ Watch Demo on Instagram</a>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="card">
+          <h4>Student Spotlight</h4>
+          <p class="muted">"Im changed my tone and confidence in just 3 months. Stage fear is gone!" — Sara K.</p>
+        </div>
+        <div class="card">
+          <h4>Studio Note</h4>
+          <p class="muted">"Prepared us for recording with precise exercises and warmups." — Studio X</p>
+        </div>
+      </section>
+
+      <section id="contact" style="margin-top:18px">
+        <h3>Contact & Book</h3>
+        <div class="card" style="display:flex;gap:12px;flex-wrap:wrap">
+          <form id="bookForm" style="flex:1;min-width:280px">
+            <div class="row">
+              <input type="text" name="name" placeholder="Your name" required>
+              <input type="text" name="phone" placeholder="Phone or Email" required>
+            </div>
+            <div style="margin-top:8px">
+              <select name="lessonType">
+                <option>45 min Private</option>
+                <option>60 min Private</option>
+                <option>Group Workshop</option>
+                <option>Online Coaching</option>
+              </select>
+            </div>
+            <div style="margin-top:8px">
+              <textarea name="note" rows="3" placeholder="Details — your goals, preferred days, current level"></textarea>
+            </div>
+            <div style="margin-top:10px;display:flex;gap:10px;align-items:center">
+              <button class="btn btn-primary" type="submit">Request Booking</button>
+              <div class="small">Or call: +996-709904944</div>
+            </div>
+          </form>
+
+          <div style="flex:1;min-width:260px">
+            <h4>Location & Hours</h4>
+            <p class="muted">Studio: Krygyzstan — In-person by appointment. Online lessons via Zoom.</p>
+            <h4 style="margin-top:10px">Follow</h4>
+            <div style="display:flex;gap:8px;margin-top:6px">
+              <a class="badge" href="#">Instagram</a>
+              <a class="badge" href="#">YouTube</a>
+              <a class="badge" href="#">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>
+        <div style="font-weight:800">Im_Emadali</div>
+        <div class="small">Vocal Coach & Music Trainer</div>
+      </div>
+      <div class="small">© <span id="year"></span> Im_Emadali. All rights reserved.</div>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('bookForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      alert('Thanks! Booking request sent. Im_Emadali will contact you shortly.');
+      e.target.reset();
+    });
+  </script>
+</body>
+</html>
